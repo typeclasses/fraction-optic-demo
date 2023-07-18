@@ -1,0 +1,3 @@
+packages: fraction-optic
+
+with-compiler: ghc-9.2.8
