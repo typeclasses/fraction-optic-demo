@@ -9,9 +9,9 @@ import Optics.Core
 reducePositive ::
   (Positive, Positive) ->
   (Positive, Positive)
-reducePositive (a, b) =
-  let c = greatestCommonFactor (a, b)
-   in (quot a c, quot b c)
+reducePositive (x, y) =
+  let gcf = greatestCommonFactor (x, y)
+   in (quot x gcf, quot y gcf)
 
 
 ---  The class  ---
