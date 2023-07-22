@@ -20,7 +20,9 @@ library
     import: base
     hs-source-dirs: library
     exposed-modules:
-        FractionOptic
+        FractionOptic.NonzeroMagnitude
+        FractionOptic.ReducePolymorphic
+        FractionOptic.ReducePositive
 
 test-suite test-fraction-optic
     import: base
